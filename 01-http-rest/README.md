@@ -4,6 +4,21 @@
 **Pré-requisito:** nenhum além de lógica básica
 **Tempo estimado:** 3 semanas a 8h/semana
 
+## Comece aqui
+
+Abra o [guia de estudo](./guia-de-estudo.md) e faça a **sessão 1**. Reserve duas horas, com pausas conforme necessário. Você observará três conversas HTTP antes de construir sua API.
+
+| Material | Quando usar |
+|---|---|
+| [Guia de estudo](./guia-de-estudo.md) | Explicações, primeira sessão e roteiro das três semanas |
+| [Exercícios](./exercicios/README.md) | Prática progressiva e desafios |
+| [Notas](./notas.md) | Suas previsões, observações e explicações |
+| [Enunciado da POC](./poc/README.md) | Construção do servidor com node:http |
+| [Contrato e evidências](./evidencias/contrato-http.md) | Decisões próprias e resultados reais |
+| [Retrospectiva](./retrospectiva.md) | Revisão do aprendizado e prova final |
+
+Material preparado não equivale a atividades concluídas. Preencha os registros depois de executar cada etapa. As [regras de uso de IA](../docs/regras-de-uso-de-ia.md) continuam valendo.
+
 ## Objetivo
 
 Construir e diagnosticar uma conversa HTTP, distinguindo método, recurso, representação, status e cabeçalhos.

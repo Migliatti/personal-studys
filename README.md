@@ -25,6 +25,8 @@ IA não pode decidir arquitetura, modelagem, estratégia de testes, causa-raiz, 
 
 Se eu não consigo explicar uma sugestão da IA, ela não entra no repositório. Consulte [as regras detalhadas](./docs/regras-de-uso-de-ia.md).
 
+O Codex recebe as instruções de [tutoria do projeto](./AGENTS.md): uma pista por vez, perguntas orientadoras e revisão das minhas tentativas, sem gabarito. O modelo padrão e as instruções de ativação estão em [configuração da IA](./docs/configuracao-da-ia.md).
+
 ## Progresso
 
 | Módulo | Alvo | Status | Conclusão | Projeto/saída |

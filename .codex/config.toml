@@ -1,0 +1,4 @@
+# Padrão local para sessões de estudo neste projeto.
+# O comportamento de tutoria está definido no AGENTS.md.
+model = "gpt-5.6-sol"
+model_reasoning_effort = "medium"
