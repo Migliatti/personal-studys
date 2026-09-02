@@ -4,6 +4,12 @@ Trilha prática para transição de suporte técnico para **Backend Júnior** ou
 
 Este repositório contém anotações, exercícios e provas de conceito. Projetos finalizados de portfólio são promovidos para repositórios próprios.
 
+## Por onde começar
+
+Comece pelo [módulo 00 — Lógica e JavaScript](./00-logica-javascript/README.md), preparado para quem já teve contato com lógica e programas pequenos em Python, está retomando a prática e ainda não escreve JavaScript. Não é necessário dominar Python antes.
+
+O módulo 00 constrói a base para programar; o 01 aplica essa base a HTTP. Node.js será inicialmente apenas o programa que executa seus arquivos JavaScript. TypeScript e ferramentas de API entram no módulo 03.
+
 ## Regras de conclusão
 
 Um módulo só pode ser marcado como concluído quando eu consigo:
@@ -31,6 +37,7 @@ O Codex recebe as instruções de [tutoria do projeto](./AGENTS.md): uma pista p
 
 | Módulo | Alvo | Status | Conclusão | Projeto/saída |
 |---|---|---|---|---|
+| [00-logica-javascript](./00-logica-javascript/) | Ambos | Não iniciado | — | — |
 | [01-http-rest](./01-http-rest/) | Ambos | Não iniciado | — | — |
 | [02-modelagem-sql](./02-modelagem-sql/) | Ambos | Não iniciado | — | — |
 | [03-node-typescript-api](./03-node-typescript-api/) | Backend Júnior | Não iniciado | — | Em construção |
@@ -68,21 +75,24 @@ Carga máxima: **8 horas semanais**.
 - 3 horas: POC ou projeto.
 - 1 hora: debugging, revisão e commit.
 
+No módulo 00, as três horas destinadas à POC são de prática incremental nas primeiras quatro semanas. A POC integradora começa na quinta semana.
+
 Se uma semana for perdida, o cronograma é deslocado. O conteúdo não é comprimido.
 
 ## Cronograma
 
 | Fase | Módulos | Semanas |
 |---|---|---:|
+| Revisão de lógica e JavaScript | 00 | 6 |
 | Protocolos e dados | 01–02 | 8 |
 | Node/TypeScript aplicado | 03–07 | 22 |
 | Integrações confiáveis | 08–10 | 13 |
 | Deploy e operação | 11–12 | 8 |
 | Automação profissional | 13–14 | 9 |
 | Empregabilidade | 15 | 3 |
-| **Total** | **15 módulos** | **63** |
+| **Total** | **16 módulos** | **69** |
 
-São aproximadamente 504 horas ou 14,5 meses a 8 horas por semana, dentro do horizonte de 12–18 meses.
+São aproximadamente 552 horas ou 16 meses a 8 horas por semana, dentro do horizonte de 12–18 meses. As seis semanas iniciais são uma estimativa: avance pelas evidências de compreensão e amplie o prazo quando necessário.
 
 ## Disciplina de commits
 
@@ -104,6 +114,7 @@ chore(repo): update module progress
 
 ## Primeira semana
 
-1. Executar três requisições com `curl -v` e documentar sua anatomia.
-2. Criar `GET /health` e `GET /incidents/:id` usando apenas `node:http`.
-3. Introduzir um erro de status, diagnosticá-lo sem IA e registrar a causa.
+1. Abrir a sessão 1 do [guia do módulo 00](./00-logica-javascript/guia-de-estudo.md).
+2. Conferir o Node.js e executar um primeiro arquivo JavaScript.
+3. Praticar valores, variáveis, operações e conversão de texto em número nos exercícios 1–3.
+4. Registrar suas tentativas e dúvidas. As atividades de HTTP começam depois da base do módulo 00.

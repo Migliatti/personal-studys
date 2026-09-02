@@ -8,7 +8,8 @@ Este repositório apoia a transição de Analista de Help Desk e Implantação p
 
 - O repositório guarda anotações, exercícios e provas de conceito.
 - Projetos concluídos de portfólio são promovidos para repositórios próprios.
-- A trilha possui 15 módulos estritamente sequenciais e soma 63 semanas.
+- A trilha possui 16 módulos estritamente sequenciais (00–15) e soma 69 semanas, aproximadamente 552 horas.
+- O módulo 00 oferece seis semanas de revisão de lógica e fundamentos de JavaScript para quem está retomando programas pequenos e ainda não escreve nas linguagens da trilha. Ele antecede a construção de APIs do módulo 01.
 - Cada módulo contém objetivo, checklist, notas, exercícios, POC, evidências e retrospectiva.
 - TypeScript/Node é a stack principal; PostgreSQL, Docker, Redis/BullMQ, GitHub Actions e n8n entram apenas após seus pré-requisitos.
 - Serviços externos não podem exigir curso pago, infraestrutura paga ou cartão de crédito.

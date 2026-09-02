@@ -1,7 +1,7 @@
 # 01-http-rest
 
 **Alvo:** Ambos
-**Pré-requisito:** nenhum além de lógica básica
+**Pré-requisito:** `00-logica-javascript` concluído; conseguir executar JavaScript, escrever funções e condicionais, manipular arrays e objetos e reconhecer callbacks e módulos.
 **Tempo estimado:** 3 semanas a 8h/semana
 
 ## Comece aqui

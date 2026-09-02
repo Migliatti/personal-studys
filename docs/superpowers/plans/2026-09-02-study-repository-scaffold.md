@@ -1,5 +1,7 @@
 # Study Repository Scaffold Implementation Plan
 
+> Registro histórico da criação dos módulos 01–15. A inclusão posterior do módulo 00 ampliou a trilha para 16 módulos e 69 semanas; o cronograma vigente está no [README principal](../../../README.md). Os resultados abaixo se referem à estrutura original.
+
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** Configurar o repositório Git existente como laboratório sequencial de backend, infraestrutura e integrações.

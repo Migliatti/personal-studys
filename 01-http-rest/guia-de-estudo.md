@@ -2,6 +2,8 @@
 
 Seu objetivo é olhar uma requisição e explicar o que foi pedido, para quem, com quais dados e qual resposta chegou. Ao final, você vai construir e diagnosticar um servidor pequeno.
 
+Antes de iniciar este módulo, conclua o [módulo 00 — Lógica e JavaScript](../00-logica-javascript/README.md). Este guia parte da prática de programas pequenos; o servidor HTTP será uma aplicação dessa base.
+
 ## Como estudar
 
 Leia um trecho, execute uma atividade e registre o que observou em [notas.md](./notas.md). Antes de rodar um comando, escreva sua previsão. Depois, compare o resultado. As respostas e decisões dos exercícios devem ser suas. Use o [modo de tutoria do projeto](../AGENTS.md): durante a prática assistida, a IA pode orientar uma tentativa sua com uma pista por vez, esperando sua resposta antes de avançar. A [configuração da IA](../docs/configuracao-da-ia.md) registra o modelo escolhido; os limites de ajuda valem independentemente do modelo.
@@ -151,7 +153,7 @@ Cada sessão dura duas horas. Nas sessões 4, 8 e 12, use uma hora para POC e um
 | 3 | 11 | POC: revisar e praticar reconstrução | Execução reproduzível |
 | 3 | 12 | POC: prova de 40 min sem consulta nem IA; 20 min para evidências; 1h de revisão | Resultado, retrospectiva e diário |
 
-Se ainda não consegue escrever funções, condicionais ou manipular objetos em JavaScript, registre isso como pré-requisito a reforçar antes da sessão 3. Desloque o roteiro se necessário.
+Se funções, condicionais, objetos ou callbacks ainda bloquearem a sessão 3, retome a prática correspondente do [guia do módulo 00](../00-logica-javascript/guia-de-estudo.md). Desloque o roteiro se necessário.
 
 ## Ajuda durante o módulo
 
