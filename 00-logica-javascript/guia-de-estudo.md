@@ -4,171 +4,178 @@ O objetivo é voltar a escrever programas pequenos e ganhar familiaridade com Ja
 
 ## Como usar o material
 
-Leia apenas o bloco da semana, pratique e registre o que aconteceu. Na prática assistida, documentação e ajuda pontual são permitidas. Durante atividades explicitamente sem IA ou sem consulta, encerre a tentativa antes de pedir revisão.
+Leia o conceito da missão atual, pratique uma atividade por vez e registre o que aconteceu. Os enunciados não são roteiros de implementação: você escolhe dados, organização e verificações. Antes de executar, anote sua previsão; depois compare com a saída real. Tentativa incompleta registrada ajuda a escolher a retomada.
 
-Os exercícios são enunciados, não roteiros de implementação. Escolha seus dados, suas verificações e como dividir o problema. Antes de executar, anote o que espera; depois compare com a saída real. Uma tentativa incompleta registrada vale mais para orientar o estudo do que uma solução copiada.
+Na prática assistida, documentação e ajuda pontual são permitidas. Nas etapas sem IA ou sem consulta, encerre a tentativa antes de pedir revisão. Não preencha notas, evidências ou diário como se as sessões abaixo já tivessem ocorrido.
 
-## Sessão 1 — ambiente e primeiro arquivo (duas horas)
+## Marco A — três semanas estimadas
 
-### Preparar — 20 minutos
+A carga-base é de 8 horas semanais, em quatro sessões de até duas horas. Até 7 horas adicionais são margem opcional de recuperação ou repetição, sem conteúdo obrigatório novo. As três semanas somam 24 horas estimadas; lacunas deslocam o calendário.
 
-Abra o repositório no editor. No PowerShell, execute:
+O **núcleo essencial** é composto pelas missões **1, 3, 4, 6, 7, 12, 13, 14 e 15**. As missões **2, 5, 8–11 e 16–18** são **reforço recomendado**, disponível conforme a necessidade e obrigatório apenas na conclusão integral posterior do módulo. Não tente concluir as 18 missões no prazo do Marco A.
 
-```powershell
-Set-Location -LiteralPath 'C:\Users\Gabriel Speedpro\Music\projetos\personal-studys\00-logica-javascript'
-node --version
-```
+| Semana | Foco | Retomada orientada por evidências |
+|---|---|---|
+| Semana 1 | Sessões 1–4 abaixo; missões 1 e 3; missão 2 como reforço conforme o ritmo | Valores, operações e conversão explicados; variação e registros reais |
+| Semana 2 | Decisões, repetições, funções e coleções; missões 4, 6, 7 e 12 | Regras, término, retorno e representação explicados e modificados |
+| Semana 3 | JSON, módulos e callback; missões 13–15, POC e portão | Integração, explicação, modificação e investigação independentes |
 
-Na preparação deste módulo, em 02/09/2026, o comando retornou `v24.20.0`. Registre a versão que aparecer na sua sessão. Se o comando não for reconhecido, peça ajuda de setup antes de continuar. Não é necessário instalar pacotes npm.
-
-JavaScript é a linguagem; Node.js executa seus arquivos fora do navegador. O PowerShell recebe o comando que inicia esse programa. Uma instrução JavaScript escrita diretamente no PowerShell não é executada automaticamente como JavaScript.
-
-### Primeiro contato — 20 minutos
-
-No editor, crie `exercicios/pratica/primeiro-programa.mjs` com este conteúdo de preparação:
-
-```javascript
-console.log("Comecei minha prática de JavaScript.");
-```
-
-Execute a partir da pasta do módulo:
-
-```powershell
-node ./exercicios/pratica/primeiro-programa.mjs
-```
-
-Essa linha apenas confirma que você consegue salvar e executar um arquivo; não é solução de um exercício. Compare editar o arquivo, salvar e executar novamente. A extensão `.mjs` identifica um módulo JavaScript no Node e será usada neste módulo para manter a configuração simples. Consulte [executar scripts com Node](https://nodejs.org/en/learn/command-line/run-nodejs-scripts-from-the-command-line) e [módulos JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Modules).
-
-### Valores e variáveis — 30 minutos
-
-Leia o bloco da semana 1 abaixo e o início de “Sintaxe e tipos” no [Guia JavaScript da MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide). Foque em declarações e valores básicos; hoisting e detalhes avançados podem esperar.
-
-### Primeira tentativa — 35 minutos
-
-Leia o exercício 1 e faça uma tentativa na pasta de prática. Se travar, anote o ponto exato. Não precisa terminar os três exercícios da semana nesta sessão.
-
-### Encerrar — 15 minutos
-
-Registre o comando real, o que ele exibiu e uma dúvida em [notas.md](./notas.md). Anote onde parou para retomar na sessão 2. A preparação do ambiente não representa conclusão da semana.
+Na semana 2, distribua leitura e tentativas pelas quatro sessões, reservando tempo para revisão e registros. Na semana 3, leia a POC após as missões 13–15 e use sessões adicionais se a construção e o portão não couberem. O [portão do Marco A](./README.md#portão-do-marco-a--antes-de-http) é a condição de avanço para HTTP, não a passagem de três semanas.
 
 ## Semana 1 — valores, variáveis e operações
+
+A primeira semana tem quatro sessões completas abaixo. Na Frota Aurora, você começa preparando o terminal de bordo e pequenas experiências de telemetria. As missões não exigem conhecimento de franquias ou ficção científica.
+
+### Conceitos de apoio
 
 Um algoritmo descreve como transformar uma entrada em uma saída. Escrever o programa exige tornar explícitas as operações que na explicação verbal podem ficar implícitas.
 
 Em JavaScript, `let` declara uma variável que pode receber outro valor; `const` impede reatribuir aquela variável. Strings representam texto, numbers representam números e booleans representam verdadeiro ou falso. `typeof` permite observar o tipo de um valor. Você também encontrará `undefined` e `null`; registre como aparecem na sua prática.
 
-Exemplo isolado de declaração, sem relação com as atividades:
+Exemplo isolado, de outro contexto e sem resolver as missões:
 
 ```javascript
 const idioma = "português";
 let paginaAtual = 4;
 ```
 
-Estude operadores aritméticos, precedência, parênteses e conversão explícita com `Number`. Texto contendo dígitos continua sendo texto até uma conversão. Não suponha que todos os operadores tratam texto da mesma maneira. Aprenda também concatenação e template literals para compor mensagens.
+Estude operadores aritméticos, precedência, parênteses e conversão explícita com `Number`. Texto contendo dígitos continua sendo texto até uma conversão. Não suponha que todos os operadores tratam texto da mesma maneira. Aprenda concatenação e template literals para compor mensagens.
 
-**Leitura:** capítulos “Sintaxe e tipos”, “Expressões e operadores” e “Formatação de texto” do [guia MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide), apenas os tópicos acima.
+**Leitura:** tópicos indicados de “Sintaxe e tipos”, “Expressões e operadores” e “Formatação de texto” no [guia MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide). Hoisting e detalhes avançados podem esperar. Entradas podem ser valores escritos no arquivo; teclado não é pré-requisito.
 
-**Prática:** exercícios 1–3. Nesta semana, entradas podem ser valores escritos no próprio arquivo; ler pelo teclado não é um pré-requisito.
+## Sessão 1 — ambiente e primeiro arquivo (duas horas)
 
-**Antes de avançar:** consiga alterar um valor, executar novamente e explicar a operação realizada e o tipo dos valores usados.
+**Objetivo:** conferir o ambiente, executar o arquivo de preparação existente e começar a missão 1, sem exigir sua conclusão.
 
-## Semana 2 — decisões e repetições
+**Preparação:** abra o repositório no editor e confira Node e Git no PowerShell:
 
-Uma condição produz um valor booleano; `if` e `else` permitem escolher um caminho. Estude comparações, igualdade estrita (`===`), diferença (`!==`), `&&`, `||` e `!`. A atribuição `=` tem outra finalidade. JavaScript usa chaves para delimitar blocos; a indentação ajuda a leitura.
+```powershell
+Set-Location -LiteralPath 'C:\Users\Gabriel Speedpro\Music\projetos\personal-studys\00-logica-javascript'
+node --version
+git --version
+git status --short
+```
 
-Repetir uma ação exige entender quando continuar e quando terminar. Estude `for` e `while`. Antes de executar um laço, explique por que ele termina. Se um programa ficar executando sem parar, `Ctrl+C` interrompe a execução no terminal.
+Na preparação de 02/09/2026 foi registrado Node `v24.20.0`; isso não substitui a versão observada na sua sessão. Se um comando não for reconhecido, peça ajuda de setup. Não instale pacotes npm para este módulo. Confira alterações existentes antes de trabalhar; não as descarte.
 
-**Leitura:** “Controle de fluxo” (condicionais) e “Laços e iteração” do [guia MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide).
+**Conceito técnico:** JavaScript é a linguagem; Node.js executa arquivos fora do navegador; PowerShell recebe o comando que inicia o programa. Código JavaScript escrito no PowerShell não se torna automaticamente JavaScript executado. Git registra versões; consultar o estado não cria um commit.
 
-**Prática:** exercícios 4–6. Não é necessário usar arrays ainda.
+**Missão:** a Frota Aurora abre um terminal para receber uma pessoa em treinamento. Execute o arquivo de preparação já existente, sem recriá-lo ou substituí-lo, e depois leia a missão 1 em [exercicios/README.md](./exercicios/README.md).
 
-**Antes de avançar:** explique qual regra seu programa representa e como uma repetição altera o estado do programa.
+```powershell
+node ./exercicios/pratica/primeiro-programa.mjs
+```
 
-## Semana 3 — funções e escopo
+A extensão `.mjs` identifica um módulo JavaScript no Node. A execução acima é só setup; não resolve a missão 1. Leia valores e variáveis no bloco de apoio e inicie a missão em outro arquivo autoral na pasta de prática. Sugestão de tempo: 20 minutos para ambiente, 20 para execução, 30 para conceitos, 35 para tentativa e 15 para registro.
 
-Uma função agrupa um comportamento que pode receber argumentos e retornar um valor. Parâmetros são os nomes usados na definição; argumentos são os valores fornecidos na chamada. `return` devolve um resultado para quem chamou. Mostrar algo com `console.log` e retornar um valor cumprem papéis diferentes.
+**Entrega:** tentativa autoral da missão 1, mesmo incompleta, e registro das versões, comando, diretório, saída real e ponto de parada em [notas.md](./notas.md).
 
-Estude declaração com `function`, chamada, retorno e escopo de bloco/função. Observe quais variáveis cada trecho pode acessar. Quando a declaração tradicional estiver clara, reconheça a sintaxe de arrow functions (`=>`); não precisa reescrever tudo com ela.
+**Evidência de compreensão:** explique a diferença entre editar, salvar e executar, e identifique o papel dos valores e variáveis que usou. Setup sozinho não comprova domínio de JavaScript.
 
-**Leitura:** “Funções”, com foco em definição, chamada, parâmetros, retorno e escopo, no [guia MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide). Closures avançadas e recursão não são exigidas.
+**Próximo passo:** anote a primeira ação concreta para retomar a missão 1 na sessão 2.
 
-**Prática:** exercícios 7–9. Você decide os nomes, os parâmetros e a divisão em funções.
+## Sessão 2 — operações e conversões (duas horas)
 
-**Antes de avançar:** consiga explicar o que entra, o que sai e quando a função é executada.
+**Objetivo:** trabalhar operações e conversão explícita sem supor que texto e número se comportam da mesma forma.
 
-## Semana 4 — listas e objetos
+**Preparação:** releia sua tentativa e ponto de parada; revise apenas operadores e conversão nos conceitos de apoio.
 
-Arrays guardam uma sequência de valores, com posições iniciando em zero. Objetos relacionam propriedades a valores. Compare representar uma informação isolada e várias informações relacionadas, sem assumir que existe uma estrutura universal para todo problema.
+**Conceito técnico:** tipos, operações, precedência e conversão; diferença entre prever um comportamento e observar uma execução.
 
-Estude acesso por índice, `length`, inclusão com `push`, percurso com `for...of`, leitura e alteração de propriedades. Um array pode conter objetos. Duas variáveis podem apontar para o mesmo objeto; observe a diferença entre alterar esse objeto e reatribuir uma variável declarada com `const`.
+**Missão:** a equipe de telemetria da Frota Aurora recebeu quantidades como texto e precisa entender seu uso no programa. Retome a missão 1 e avance para a missão 3; a missão 2 oferece reforço de operações conforme o ritmo, mas não é bloqueio obrigatório. Trabalhe em uma missão por vez.
 
-**Leitura:** “Coleções indexadas” (arrays) e “Trabalhando com objetos” do [guia MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide).
+**Entrega:** tentativa da missão em que conseguiu trabalhar, previsão anterior à execução, comando e saída real em [execucoes.md](./evidencias/execucoes.md). Não registre as missões 2 ou 3 como realizadas se não chegou a elas.
 
-**Prática:** exercícios 10–12. Métodos como `map` e `filter` são aprofundamento opcional; não são requisito para resolver as atividades.
+**Evidência de compreensão:** explique os tipos envolvidos e compare sua previsão com o que de fato ocorreu, incluindo dúvidas sobre conversão inválida quando chegar a essa parte da missão 3.
 
-**Antes de avançar:** consiga percorrer uma coleção, acessar propriedades e explicar suas escolhas de representação.
+**Próximo passo:** escolha na própria tentativa o dado ou a regra pequena que pretende variar na sessão 3; se ainda houver bloqueio, registre-o antes de avançar.
 
-## Semana 5 — JSON, módulos e callbacks
+## Sessão 3 — variação e explicação (duas horas)
 
-JSON é uma representação textual de dados, não um objeto JavaScript em memória. Estude `JSON.stringify` e `JSON.parse` e observe o tipo do valor antes e depois de cada operação. Nem todo valor JavaScript tem representação em JSON.
+**Objetivo:** demonstrar compreensão além da primeira execução, com uma pequena alteração autoral.
 
-Módulos permitem exportar e importar valores e funções. Use arquivos `.mjs`, caminhos relativos e extensão explícita ao importar um arquivo local. O que pertence a cada arquivo continua sendo sua decisão.
+**Preparação:** abra a tentativa e as previsões registradas nas sessões anteriores. Preserve a versão anterior para poder comparar.
 
-Uma função também é um valor: ela pode ser passada como argumento para outra função. Uma função recebida para ser chamada é frequentemente chamada de callback. Callback não significa, por si só, execução assíncrona. Compare entregar uma função com chamá-la imediatamente.
+**Conceito técnico:** entrada, processamento, saída e tipos; relação entre mudança no programa e mudança observada.
 
-Faça um contato inicial com `setTimeout` para observar uma chamada agendada. O atraso solicitado não garante um instante exato de execução. Você não precisa implementar HTTP, promises ou `async/await` aqui.
+**Missão:** o painel da Frota Aurora recebe uma atualização de treinamento. Escolha uma pequena variação de dados ou regra na missão 1 ou 3 em que já trabalhou, registre sua previsão e execute novamente. A escolha da variação e das verificações é sua.
+
+**Entrega:** registro do que mudou, da previsão e da execução posterior, ligado ao arquivo da tentativa.
+
+**Evidência de compreensão:** explique com suas palavras o caminho dos dados, os tipos e o efeito da alteração; indique uma lacuna se não conseguir justificar o observado.
+
+**Próximo passo:** leve essa lacuna e os registros reais para a revisão da sessão 4, sem substituir a explicação por texto gerado.
+
+## Sessão 4 — consolidação e Git (duas horas)
+
+**Objetivo:** revisar lacunas, reunir evidências e registrar uma versão coerente da prática realizada.
+
+**Preparação:** leia notas, tentativas e evidências da semana; confira `git status --short` e `git diff` a partir do repositório.
+
+**Conceito técnico:** diferença entre arquivo de trabalho, alteração selecionada para commit e histórico; evidência é o que foi observado, não o plano da semana.
+
+**Missão:** a Frota Aurora fecha o diário do turno e precisa conseguir retomar o trabalho. Revise uma lacuna por vez, organize os registros e produza um commit coerente apenas com o que você realizou e revisou. Escolha os arquivos e a mensagem; ajuda mecânica com Git é permitida, sem descarte de alterações existentes.
+
+**Entrega:** referências às execuções e à variação, commit do trabalho revisado e linha factual no [diário de estudo](../docs/diario-de-estudo.md), com horas reais e próximo passo.
+
+**Evidência de compreensão:** explique o que entrou no commit e por quê, e quais conceitos a semana demonstrou ou deixou pendentes. Não conclua o Marco A apenas por completar quatro sessões.
+
+**Próximo passo:** se valores e conversão ainda não estiverem claros, acrescente uma sessão de retomada; caso contrário, inicie a missão 4 com o bloco de decisões abaixo.
+
+## Conceitos para a semana 2 — decisões e repetições
+
+Uma condição produz um valor booleano; `if` e `else` permitem escolher um caminho. Estude comparações, igualdade estrita (`===`), diferença (`!==`), `&&`, `||` e `!`. A atribuição `=` tem outra finalidade. Chaves delimitam blocos; indentação ajuda a leitura.
+
+Repetir exige entender quando continuar e quando terminar. Estude `for` e `while` e explique por que sua repetição termina antes de executar. `Ctrl+C` interrompe um programa que não termina no terminal.
+
+**Leitura:** “Controle de fluxo” e “Laços e iteração” do [guia MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide).
+
+**Missões essenciais:** 4 e 6. **Reforço:** 5. Não é necessário usar arrays nessas missões. Antes de seguir, explique a regra e a alteração de estado durante a repetição.
+
+## Conceitos para a semana 2 — funções e escopo
+
+Uma função agrupa um comportamento que pode receber argumentos e retornar um valor. Parâmetros são os nomes na definição; argumentos são os valores fornecidos na chamada. `return` devolve um resultado para quem chamou; exibir com `console.log` tem outro papel.
+
+Estude `function`, chamada, retorno e escopo de bloco/função. Observe quais variáveis cada trecho pode acessar. Depois reconheça arrow functions (`=>`), sem precisar reescrever tudo. Closures avançadas e recursão não são exigidas.
+
+**Leitura:** “Funções” do [guia MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide).
+
+**Missão essencial:** 7, que contém seu próprio pedido de conversão de duração. **Reforço:** 8 e 9. Você decide nomes, parâmetros e divisão. Antes de seguir, explique entrada, retorno e momento da chamada.
+
+## Conceitos para a semana 2 — arrays e objetos
+
+Arrays guardam sequências de valores, com posições iniciando em zero. Objetos relacionam propriedades a valores. Compare uma informação isolada e várias relacionadas, sem supor uma representação universal.
+
+Estude índice, `length`, `push`, `for...of`, leitura e alteração de propriedades. Um array pode conter objetos. Duas variáveis podem apontar para o mesmo objeto; alterar esse objeto não é reatribuir uma variável declarada com `const`.
+
+**Leitura:** “Coleções indexadas” e “Trabalhando com objetos” do [guia MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide).
+
+**Missão essencial:** 12. **Reforço:** 10 e 11, caso precise separar coleção e objeto em práticas menores. `map` e `filter` são aprofundamento opcional. Antes de seguir, explique percurso, acesso a propriedades e suas escolhas de representação.
+
+## Conceitos para a semana 3 — JSON, módulos e callbacks
+
+JSON é representação textual de dados, não um objeto JavaScript em memória. Estude `JSON.stringify` e `JSON.parse`, observando os tipos antes e depois. Nem todo valor JavaScript tem representação em JSON.
+
+Módulos permitem exportar e importar valores e funções. Use `.mjs`, caminhos relativos e extensão explícita em arquivos locais. A divisão entre arquivos é sua decisão.
+
+Uma função também é um valor e pode ser passada como argumento. Uma função recebida para ser chamada é frequentemente chamada de callback; isso não significa, por si só, execução assíncrona. Compare entregar uma função e chamá-la imediatamente.
+
+Faça contato com `setTimeout` para observar uma chamada agendada. O atraso solicitado não garante instante exato de execução. Não precisa implementar HTTP, promises ou `async/await`.
 
 **Leitura:** “Funções” do [guia MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide), [módulos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Modules), [JSON](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/JSON) e [timers do Node](https://nodejs.org/api/timers.html).
 
-**Prática:** exercícios 13–15. Comece a POC depois dessas atividades; callbacks são praticados nos exercícios e não são uma exigência artificial da POC.
+**Missões essenciais:** 13–15. Depois inicie a [POC](./poc/README.md). Callback é praticado na missão 15, não exigência artificial da POC. Antes do portão, execute importações e explique função, chamada, callback e conversão JSON.
 
-**Antes de avançar:** consiga executar arquivos com importação e explicar função, chamada e callback.
+## Integração, investigação e conclusão posterior
 
-## Semana 6 — integração e autonomia
+Retome a POC e sustente seu funcionamento com verificações escolhidas por você. Leia erros identificando mensagem, arquivo e linha; diferencie falha de sintaxe, falha de execução e resultado contrário à regra. Registre hipóteses antes de modificar e relacione mudanças às evidências.
 
-Retome o enunciado da POC. Concluir não é só ver uma mensagem no terminal: você precisa explicar o comportamento e sustentar sua conclusão com verificações escolhidas por você.
+Para seguir a HTTP, cumpra o [portão do Marco A](./README.md#portão-do-marco-a--antes-de-http), usando tentativas essenciais e POC para explicação, mudança e investigação; as etapas sem IA não recebem pistas durante a execução. O portão não exige concluir o reforço nem a avaliação integral.
 
-Leia erros identificando mensagem, arquivo e linha. Diferencie falha de sintaxe, falha durante a execução e resultado que não atende à regra que você definiu. Registre uma hipótese antes de mudar o programa e relacione a mudança à evidência observada. Durante a investigação independente do exercício 17, não use IA.
-
-**Prática:** exercícios 16–18, encerramento da POC e [verificação final](./verificacao-final.md).
-
-**Antes de seguir para HTTP:** cumpra os critérios do módulo. Se a dificuldade for de sintaxe ou raciocínio básico, retome o bloco correspondente.
-
-## Roteiro de 24 sessões
-
-Cada sessão dura até duas horas. Nas semanas 1–5, a sessão final combina uma hora de prática e uma de revisão. Na semana 6, a sessão 24 reserva uma hora para o fechamento da verificação e uma para os registros.
-
-| Semana | Sessão | Foco | Registro esperado |
-|---|---:|---|---|
-| 1 | 1 | Ambiente, valores e primeira tentativa | Comando real e dúvida inicial |
-| 1 | 2 | Exercícios 1–3 | Tentativas autorais |
-| 1 | 3 | Continuar exercícios e variar dados | Previsões e observações |
-| 1 | 4 | Consolidar tipos e revisar | Notas e diário |
-| 2 | 5 | Condicionais e laços | Explicações próprias |
-| 2 | 6 | Exercícios 4–6 | Tentativas autorais |
-| 2 | 7 | Continuar e modificar regras | Mudança explicada |
-| 2 | 8 | Revisar término dos laços | Notas e diário |
-| 3 | 9 | Funções, retorno e escopo | Explicações próprias |
-| 3 | 10 | Exercícios 7–9 | Tentativas autorais |
-| 3 | 11 | Continuar e variar chamadas | Observações reais |
-| 3 | 12 | Revisar entradas e retornos | Notas e diário |
-| 4 | 13 | Arrays e objetos | Comparações próprias |
-| 4 | 14 | Exercícios 10–12 | Tentativas autorais |
-| 4 | 15 | Continuar e modificar dados | Comportamento explicado |
-| 4 | 16 | Consolidar coleções | Notas e diário |
-| 5 | 17 | JSON, módulos e callbacks | Explicações e dúvidas |
-| 5 | 18 | Exercícios 13–15 | Tentativas autorais |
-| 5 | 19 | Ler a POC e iniciar construção | Decisões e código próprios |
-| 5 | 20 | Continuar POC e revisar | Evidências e diário |
-| 6 | 21 | Revisão dos conceitos e exercício 16 | Explicação do programa |
-| 6 | 22 | Exercícios 17–18 | Diagnóstico e mudança autorais |
-| 6 | 23 | Concluir POC (30 min); iniciar prova (90 min) | Código e registro da tentativa |
-| 6 | 24 | Encerrar prova, explicar e revisar (1h); registros (1h) | Evidências, retrospectiva e diário |
-
-Se faltar tempo, acrescente sessões em outra semana. Não reduza a prática para caber na tabela. Os 90 minutos são uma janela inicial de trabalho, não uma prova de velocidade.
+Para concluir integralmente o módulo depois, retome as missões de reforço pendentes, incluindo 16–18, e a [verificação final](./verificacao-final.md). A missão 17 é sem IA; a verificação final é sem IA e sem consulta. Reserve sessões próprias e registre o tempo real, sem comprimir esse trabalho nas três semanas estimadas do núcleo.
 
 ## Como pedir ajuda
 
-Na prática assistida, apresente: atividade, o que entendeu, sua tentativa e dúvida. Peça uma pista pequena por vez. Se a dúvida for de ferramenta ou sintaxe, identifique-a claramente.
+Na prática assistida, apresente atividade, entendimento, tentativa, evidência, ponto de parada e dúvida. Peça uma pista pequena por vez. Dúvidas gerais de conceito, ferramenta e sintaxe podem receber explicação direta de outro contexto.
 
-Em debugging orientado, traga suas hipóteses e evidências; a IA não entrega a causa nem aplica a correção. Nas etapas sem IA ou sem consulta, nenhuma pista ou correção é permitida durante a execução. Declare a tentativa encerrada antes da revisão posterior.
+Em debugging orientado, traga hipóteses e evidências: a IA não entrega a causa nem aplica a correção. Nas etapas sem IA ou sem consulta, nenhuma pista ou correção durante a execução. Declare a tentativa encerrada antes da revisão posterior.
