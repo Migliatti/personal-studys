@@ -104,7 +104,7 @@ Cada sessão exibirá objetivo, preparação, conceito técnico, missão, entreg
 
 ## Universo temático
 
-Será usado um universo original e leve de exploração espacial chamado **Frota Aurora**. A narrativa terá no máximo algumas frases por atividade e nunca exigirá conhecimento de franquias.
+Será usado um universo original e leve de exploração espacial chamado **Frota Aurora**. Todo exercício existente ou criado no futuro terá uma pequena situação narrativa ligada a ficção científica, mechas, anime, exploração espacial ou tecnologia futurista. Somente passos puramente mecânicos de setup podem ficar sem lore. A narrativa terá no máximo algumas frases por atividade e nunca exigirá conhecimento de franquias.
 
 As atividades existentes receberão ambientações como energia e temperatura de mechas, inventário de nave, expedições, telemetria, registros de missão e biblioteca de animações. Em cada atividade ficarão explícitos:
 
