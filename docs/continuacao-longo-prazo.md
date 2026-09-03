@@ -1,5 +1,7 @@
 # Continuação de longo prazo
 
+Este mapa é uma referência para o percurso pessoal do autor, adaptável por outros estudantes. Software permanece como especialidade principal. Os aprofundamentos e interesses abaixo não são uma agenda pronta: o material será preparado conforme o avanço e a necessidade real.
+
 Depois da [trajetória essencial](./trajetoria-essencial.md), os módulos continuam como aprofundamentos de backend e integrações. Esta sequência preserva os caminhos existentes e organiza o estudo por dependência, sem transformar o horizonte essencial em uma fila de 69 semanas.
 
 | Ordem de dependência | Foco | Módulos de referência |
@@ -18,3 +20,9 @@ Depois da [trajetória essencial](./trajetoria-essencial.md), os módulos contin
 O segundo projeto é opcional. Ele só começa depois que o primeiro projeto estiver demonstrável: execução reproduzível, decisões explicadas, limites conhecidos e evidências reais. Os itens desta continuação não são obrigatórios para declarar o Marco E atingido, mas são o caminho para aprofundar e concluir integralmente os módulos que tiveram apenas um recorte essencial.
 
 Cada etapa mantém as regras de autonomia: o estudante escolhe decisões de arquitetura, modelagem, testes e diagnóstico; a IA pode ajudar apenas dentro dos limites registrados em [regras de uso de IA](./regras-de-uso-de-ia.md).
+
+## Explorações multidisciplinares opcionais
+
+Conectar software ao mundo físico é uma motivação de longo prazo, não uma exigência do horizonte essencial. Eletrônica, microcontroladores, CAD e impressão 3D, mecânica, controle, robótica, visão computacional e sistemas autônomos são possibilidades de exploração conforme projetos futuros exigirem. IA aplicada também pode entrar nesse contexto.
+
+Esses interesses não formam uma sequência obrigatória nem acrescentam tarefas ou carga à semana atual. Cada exploração deve ter escopo compatível com a base já demonstrada, os recursos disponíveis e os cuidados de segurança envolvidos, preservando a prioridade de desenvolvimento de software. Não serão criados módulos antecipadamente; exercícios futuros manterão lore curta da Frota Aurora, conceito explícito e autoria do estudante.

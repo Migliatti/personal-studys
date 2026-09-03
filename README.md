@@ -1,8 +1,21 @@
 # Backend e Integrações — Laboratório de Estudo
 
-Trilha prática para transição de suporte técnico para **Backend Júnior** ou **Analista de Sistemas/Integrações**.
+Laboratório público de aprendizagem de software, começando por backend e integrações, com prática autoral e evidências de compreensão.
 
 Este repositório contém anotações, exercícios e provas de conceito. Projetos finalizados de portfólio são promovidos para repositórios próprios.
+
+## Sobre este percurso
+
+Este é o registro de estudos do autor, não um curso completo nem uma garantia de preparação para uma vaga. Outras pessoas podem usar o percurso como referência e adaptar ritmo, datas e recortes à própria experiência. O painel e os registros de progresso abaixo se referem ao autor, não a quem visita o repositório.
+
+Repositório em evolução: materiais futuros podem estar incompletos e serão revisados conforme o avanço do autor. A Frota Aurora é o universo fictício dos exercícios; sua lore dá contexto às missões, enquanto os conceitos e critérios de aprendizagem descrevem as competências reais praticadas.
+
+### Motivação do autor
+
+Minha especialidade em construção é software. No longo prazo, quero conectar programação, IA, eletrônica e robótica para desenvolver projetos multidisciplinares. Este repositório registra essa aprendizagem, começando pelos fundamentos de desenvolvimento backend.
+
+> Software é minha especialidade. Engenharia é meu playground. Construir coisas é o objetivo.
+
 ## Painel de retomada
 
 **Material sob demanda:** somente a semana 1 está ativa. As próximas semanas serão preparadas uma por vez, após revisar suas tentativas, evidências, dificuldades e ponto de parada. Material posterior já existente fica como referência preliminar, não agenda obrigatória. Os módulos futuros ainda não foram adaptados ao recorte essencial; não é necessário segui-los integralmente por antecipação.
@@ -29,7 +42,7 @@ O **Marco A — fundamentos** exige executar, explicar e modificar JavaScript co
 
 ## Dois horizontes
 
-O caminho padrão é a [trajetória essencial até janeiro de 2027](./docs/trajetoria-essencial.md): 16 semanas e 128 horas obrigatórias, com a semana 17 reservada apenas como margem. Os aprofundamentos permanecem na [continuação de longo prazo](./docs/continuacao-longo-prazo.md). A numeração física dos módulos não muda; a ordem dos recortes essenciais é `00 → 01 → 03 → 02 → 07 → 12`.
+O caminho padrão é a [trajetória essencial até janeiro de 2027](./docs/trajetoria-essencial.md): estimativa de 16 semanas e 128 horas de carga-base, com a semana 17 reservada apenas como margem. Os aprofundamentos permanecem na [continuação de longo prazo](./docs/continuacao-longo-prazo.md). A numeração física dos módulos não muda; a ordem dos recortes essenciais é `00 → 01 → 03 → 02 → 07 → 12`.
 
 ## Por onde começar
 

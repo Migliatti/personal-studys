@@ -1,5 +1,13 @@
 # Trajetória essencial até janeiro de 2027
 
+## Propósito e público
+
+Este é o plano pessoal do autor, cuja prioridade profissional é buscar a primeira oportunidade como estagiário ou júnior de desenvolvimento. Software é o eixo principal; backend e integrações são o primeiro recorte prático, não um limite para toda a carreira. O plano não garante contratação nem constitui uma lista de pré-requisitos para começar uma graduação.
+
+Outras pessoas podem adaptar este percurso ao próprio contexto. Janeiro de 2027, as semanas e a carga horária são referências do planejamento do autor, não prazos universais de aprendizagem. Os critérios de compreensão continuam mais importantes que o calendário.
+
+## Preparação sob demanda
+
 **Regra vigente — sob demanda:** somente a semana 1 está ativa. Este mapa é estimativo, não libera todas as tarefas. Prepare apenas a próxima semana após revisar tentativas, evidências, dificuldades e ponto de parada, mantendo lore da Frota Aurora e autoria. Materiais posteriores existentes são referência preliminar. Os recortes dos módulos 01 em diante ainda serão adaptados no momento de uso; não siga integralmente seus READMEs antigos por antecipação. As 16 semanas e 128 horas são estimativas de carga-base: ajuste prazo e entrega conforme a compreensão demonstrada.
 
 Esta é a navegação canônica para o primeiro horizonte: fundamentos e uma API pequena, completa e demonstrável. Ela não renumera pastas nem substitui a conclusão integral dos módulos; cada **portão essencial** confirma o domínio necessário para seguir neste horizonte. Os exercícios que não pertencem ao recorte continuam disponíveis como reforço e para a conclusão integral posterior.
@@ -53,3 +61,9 @@ As missões abaixo são recortes de aprendizagem, não gabaritos nem uma substit
 Se o Marco A exigir mais de três semanas, os marcos seguintes são deslocados. Para preservar uma entrega até janeiro, reduza o escopo do projeto para um único recurso principal, mantendo persistência, testes e documentação. Não elimine explicação, modificação, investigação ou evidências para cumprir uma data. Esta trajetória não promete empregabilidade; ela organiza uma base demonstrável para continuar aprendendo.
 
 Depois do Marco E, use a [continuação de longo prazo](./continuacao-longo-prazo.md) para retomar os aprofundamentos e concluir os módulos físicos integralmente.
+
+## Questão aberta — mercado de entrada e IA
+
+Permanece pendente uma pesquisa sobre oportunidades de estágio e desenvolvimento júnior em 2026 e perspectivas para 2027, incluindo o impacto da IA. Ainda não há conclusões de mercado neste plano. Quando realizada, a pesquisa deve informar fontes, data de consulta, recorte geográfico e perfil das vagas, distinguindo dados observados de projeções e limitações da amostra.
+
+Seus resultados poderão orientar revisões futuras das competências e do portfólio, sem transformar previsões em garantias de emprego, antecipar todas as tarefas ou bloquear o início dos estudos ou da graduação.
