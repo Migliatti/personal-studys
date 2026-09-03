@@ -85,15 +85,16 @@ Status permitidos: `Não iniciado`, `Em andamento`, `Bloqueado` ou `Concluído`.
 
 | Projeto | Origem | Momento da promoção | Repositório | Deploy |
 |---|---|---|---|---|
-| API de operações e SLA | Módulos 03–07 | Ao concluir o módulo 07 | — | — |
-| Relay confiável de webhooks | Módulos 09–10 | Ao concluir o módulo 10 | — | — |
-| Pipeline de conciliação de implantações | Módulos 13–14 | Ao concluir o módulo 14 | — | — |
+| API de registros de expedições | Trajetória essencial: recortes 03 → 02 → 07 → 12 | Após atingir o Marco E, com demonstração reproduzível | — | Gratuito sem cartão, quando viável; senão demonstração local |
+| API de operações e SLA (opcional posterior) | Aprofundamentos de backend | Somente após o primeiro projeto estar demonstrável | — | — |
+| Relay confiável de webhooks (opcional posterior) | Aprofundamentos de integrações | Somente após o primeiro projeto estar demonstrável | — | — |
+| Pipeline de conciliação de implantações (opcional posterior) | Aprofundamentos de integrações | Somente após o primeiro projeto estar demonstrável | — | — |
 
 Consulte o [mapa de promoção](./docs/portfolio-map.md).
 
 ## Ritmo
 
-Carga máxima: **8 horas semanais**.
+Carga-base: **8 horas por semana**. As horas **9–15** são apenas margem opcional para repetição, recuperação, leitura complementar, correção autoral e prática; elas não adicionam conteúdo obrigatório novo.
 
 - 2 horas: teoria aplicada e notas.
 - 2 horas: exercícios.
