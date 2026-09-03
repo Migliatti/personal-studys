@@ -1,1 +1,0 @@
-console.log("Comecei minha prática em JavaScript")
