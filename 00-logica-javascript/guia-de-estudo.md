@@ -1,5 +1,7 @@
 # Guia de estudo — Lógica e JavaScript
 
+**Preparação sob demanda:** somente a semana 1 é o roteiro ativo. Os blocos posteriores são referência preliminar preservada, não agenda obrigatória. Antes de preparar a próxima semana, o tutor deve revisar suas tentativas, evidências, dificuldades e ponto de parada e detalhar somente essa semana, com lore da Frota Aurora e sem soluções prontas.
+
 O objetivo é voltar a escrever programas pequenos e ganhar familiaridade com JavaScript. Não precisa lembrar toda a sintaxe de Python nem estudar duas linguagens em paralelo.
 
 ## Como usar o material

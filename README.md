@@ -5,6 +5,8 @@ Trilha prática para transição de suporte técnico para **Backend Júnior** ou
 Este repositório contém anotações, exercícios e provas de conceito. Projetos finalizados de portfólio são promovidos para repositórios próprios.
 ## Painel de retomada
 
+**Material sob demanda:** somente a semana 1 está ativa. As próximas semanas serão preparadas uma por vez, após revisar suas tentativas, evidências, dificuldades e ponto de parada. Material posterior já existente fica como referência preliminar, não agenda obrigatória. Os módulos futuros ainda não foram adaptados ao recorte essencial; não é necessário segui-los integralmente por antecipação.
+
 ### Onde estou
 
 Você está no **módulo 00**, **semana 1**, **sessão 1**. Nenhuma atividade está marcada como concluída.

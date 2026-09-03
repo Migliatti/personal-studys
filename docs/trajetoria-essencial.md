@@ -1,5 +1,7 @@
 # Trajetória essencial até janeiro de 2027
 
+**Regra vigente — sob demanda:** somente a semana 1 está ativa. Este mapa é estimativo, não libera todas as tarefas. Prepare apenas a próxima semana após revisar tentativas, evidências, dificuldades e ponto de parada, mantendo lore da Frota Aurora e autoria. Materiais posteriores existentes são referência preliminar. Os recortes dos módulos 01 em diante ainda serão adaptados no momento de uso; não siga integralmente seus READMEs antigos por antecipação. As 16 semanas e 128 horas são estimativas de carga-base: ajuste prazo e entrega conforme a compreensão demonstrada.
+
 Esta é a navegação canônica para o primeiro horizonte: fundamentos e uma API pequena, completa e demonstrável. Ela não renumera pastas nem substitui a conclusão integral dos módulos; cada **portão essencial** confirma o domínio necessário para seguir neste horizonte. Os exercícios que não pertencem ao recorte continuam disponíveis como reforço e para a conclusão integral posterior.
 
 ## Ritmo, calendário e ordem canônica

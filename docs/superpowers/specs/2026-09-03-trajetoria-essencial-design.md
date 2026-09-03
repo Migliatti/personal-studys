@@ -1,5 +1,7 @@
 # Trajetória essencial de Backend até janeiro de 2027 — Design
 
+**Revisão vigente aprovada:** o usuário substituiu a preparação antecipada por material sob demanda. Manter a primeira semana detalhada e o mapa geral; preparar apenas a próxima semana após revisar tentativas, evidências, dificuldades e ponto de parada. Preservar material posterior existente como referência preliminar, não agenda obrigatória. Não expandir agora os módulos seguintes. Cada exercício novo mantém lore da Frota Aurora e autoria. Esta revisão prevalece sobre o detalhamento antecipado abaixo. O usuário autorizou posteriormente merge local na main após verificação; push e publicação continuam fora do escopo.
+
 ## Contexto confirmado
 
 Em 3 de setembro de 2026, o repositório possui 16 módulos sequenciais, 69 semanas estimadas e 552 horas a oito horas por semana. O primeiro projeto de portfólio é promovido somente após o módulo 07, por volta da semana 36. A página inicial aponta para o módulo 00, mas não resume em um único lugar a sessão atual, a próxima entrega e as evidências necessárias para avançar.

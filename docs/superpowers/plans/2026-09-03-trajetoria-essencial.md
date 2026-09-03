@@ -1,5 +1,7 @@
 # Reorganização da trajetória de Backend — Implementation Plan
 
+**Estado vigente — escopo revisado:** tarefas 1–3 implementadas e revisadas. As antigas tarefas 4–7 abaixo foram adiadas, não concluídas, e não devem ser executadas automaticamente. Somente a semana 1 está ativa; material posterior existente é referência preliminar preservada. Prepare apenas a próxima semana após revisar tentativas, evidências, dificuldades e ponto de parada, mantendo lore da Frota Aurora e autoria. O mapa geral permanece estimativo. Esta manutenção termina com o registro da regra, verificação e merge local na main autorizado pelo usuário, sem push. O restante deste plano é histórico subordinado a esta revisão.
+
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** Reorganizar o repositório em uma trajetória essencial até janeiro de 2027 e uma continuação de longo prazo, com primeira semana detalhada, exercícios temáticos e tutoria que preserve autoria.

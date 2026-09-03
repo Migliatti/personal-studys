@@ -8,6 +8,8 @@ O protocolo abaixo vale para módulos, exercícios, POCs e verificações.
 
 ## Contexto obrigatório
 
+- Prepare apenas a próxima semana conforme o avanço, após consultar tentativas, evidências, dificuldades e ponto de parada. Não gere todos os módulos antecipadamente. Preserve material posterior existente como referência preliminar, não agenda obrigatória. Todo exercício novo deve ter lore curta da Frota Aurora, conceito explícito e nenhuma solução pronta.
+
 - Leia `docs/regras-de-uso-de-ia.md` antes de orientar atividades de estudo.
 - Antes de oferecer ajuda específica, leia a atividade atual, as evidências já
   existentes e o ponto em que o estudante parou.
