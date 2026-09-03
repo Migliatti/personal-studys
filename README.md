@@ -103,7 +103,7 @@ Carga-base: **8 horas por semana**. As horas **9–15** são apenas margem opcio
 - 3 horas: POC ou projeto.
 - 1 hora: debugging, revisão e commit.
 
-No módulo 00, as três horas destinadas à POC são de prática incremental nas primeiras quatro semanas. A POC integradora começa na quinta semana.
+No módulo 00, use a prática incremental e consulte a [trajetória essencial](./docs/trajetoria-essencial.md) para avançar conforme as evidências de compreensão e a demanda atual.
 
 Se uma semana for perdida, o cronograma é deslocado. O conteúdo não é comprimido.
 

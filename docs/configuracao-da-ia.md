@@ -21,7 +21,7 @@ correções durante a avaliação.
 
 As instruções ficam no [AGENTS.md](../AGENTS.md), na raiz do repositório,
 e complementam as [regras de uso de IA](./regras-de-uso-de-ia.md).
-Atividades sem IA ou sem consulta permanecem sem assistência durante a avaliação.
+
 
 ## Modelo escolhido
 
