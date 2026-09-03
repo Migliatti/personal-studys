@@ -3,6 +3,31 @@
 Trilha prática para transição de suporte técnico para **Backend Júnior** ou **Analista de Sistemas/Integrações**.
 
 Este repositório contém anotações, exercícios e provas de conceito. Projetos finalizados de portfólio são promovidos para repositórios próprios.
+## Painel de retomada
+
+### Onde estou
+
+Você está no **módulo 00**, **semana 1**, **sessão 1**. Nenhuma atividade está marcada como concluída.
+
+### Abra agora
+
+Abra a [sessão 1 — ambiente e primeiro arquivo](./00-logica-javascript/guia-de-estudo.md#sessão-1--ambiente-e-primeiro-arquivo-duas-horas).
+
+### Próxima entrega
+
+Faça a primeira tentativa autoral da missão 1 e registre o comando real, a saída observada e o ponto em que parou. O registro deve refletir o que aconteceu, inclusive se a tentativa ficou incompleta.
+
+### Como pedir ajuda
+
+Use este formato curto: **atividade**, **o que entendi**, **minha tentativa**, **evidência** (comando, saída ou mensagem) e **dúvida específica**. Durante uma atividade, peça uma pista pequena por vez; nas etapas sem IA ou sem consulta, encerre a tentativa antes de pedir revisão.
+
+### Como avançar
+
+O **Marco A — fundamentos** exige executar, explicar e modificar JavaScript com valores, decisões, repetições, funções, arrays, objetos, módulos e JSON, além de registrar sessões coerentes com Git. Para avançar, apresente explicação, modificação, investigação e evidências reais; leitura ou código copiado não comprovam domínio.
+
+## Dois horizontes
+
+O caminho padrão é a [trajetória essencial até janeiro de 2027](./docs/trajetoria-essencial.md): 16 semanas e 128 horas obrigatórias, com a semana 17 reservada apenas como margem. Os aprofundamentos permanecem na [continuação de longo prazo](./docs/continuacao-longo-prazo.md). A numeração física dos módulos não muda; a ordem dos recortes essenciais é `00 → 01 → 03 → 02 → 07 → 12`.
 
 ## Por onde começar
 
@@ -79,20 +104,9 @@ No módulo 00, as três horas destinadas à POC são de prática incremental nas
 
 Se uma semana for perdida, o cronograma é deslocado. O conteúdo não é comprimido.
 
-## Cronograma
+## Planejamento
 
-| Fase | Módulos | Semanas |
-|---|---|---:|
-| Revisão de lógica e JavaScript | 00 | 6 |
-| Protocolos e dados | 01–02 | 8 |
-| Node/TypeScript aplicado | 03–07 | 22 |
-| Integrações confiáveis | 08–10 | 13 |
-| Deploy e operação | 11–12 | 8 |
-| Automação profissional | 13–14 | 9 |
-| Empregabilidade | 15 | 3 |
-| **Total** | **16 módulos** | **69** |
-
-São aproximadamente 552 horas ou 16 meses a 8 horas por semana, dentro do horizonte de 12–18 meses. As seis semanas iniciais são uma estimativa: avance pelas evidências de compreensão e amplie o prazo quando necessário.
+Consulte a [trajetória essencial](./docs/trajetoria-essencial.md) para as fases, marcos, carga e regra de redução de escopo do primeiro horizonte. Consulte a [continuação de longo prazo](./docs/continuacao-longo-prazo.md) para os aprofundamentos posteriores. Avance pelas evidências de compreensão e amplie o prazo quando necessário.
 
 ## Disciplina de commits
 
@@ -114,7 +128,4 @@ chore(repo): update module progress
 
 ## Primeira semana
 
-1. Abrir a sessão 1 do [guia do módulo 00](./00-logica-javascript/guia-de-estudo.md).
-2. Conferir o Node.js e executar um primeiro arquivo JavaScript.
-3. Praticar valores, variáveis, operações e conversão de texto em número nos exercícios 1–3.
-4. Registrar suas tentativas e dúvidas. As atividades de HTTP começam depois da base do módulo 00.
+Acesse a [sessão 1 do guia do módulo 00](./00-logica-javascript/guia-de-estudo.md#sessão-1--ambiente-e-primeiro-arquivo-duas-horas). Registre a execução e as dúvidas reais antes de seguir para a próxima sessão. As atividades de HTTP começam depois da base do módulo 00.
