@@ -54,3 +54,6 @@ Desktop.ini
 # Docker overrides with local secrets
 docker-compose.override.yml
 compose.override.yml
+
+# Claude Code local overrides
+.claude/settings.local.json
