@@ -34,17 +34,74 @@ Use dados fictícios definidos nos arquivos. Você escolhe valores, representaç
 
 **Variação posterior:** escolha outra duração, registre sua previsão e compare com a execução.
 
-### Missão 3 — Telemetria recebida como texto
+### [MANUAL-CORE] Missão 3 — Telemetria recebida como texto
 
-**Percurso:** núcleo essencial. **Conceito técnico:** tipos, operações e conversão explícita para número.
+**Temática:** telemetria de uma expedição da Frota Aurora.
+**Modo de aprendizagem:** `[MANUAL-CORE]`, porque prever e implementar a
+conversão de tipos é o próprio fundamento avaliado.
+**Conceito treinado:** tipos, operações e conversão explícita para número.
+**Pré-requisitos:** valores, variáveis, operações básicas e execução de um
+arquivo `.mjs` no terminal. Esta missão pertence ao núcleo essencial.
 
-**Lore:** um arquivo de telemetria da Frota Aurora traz uma quantidade numérica como texto. A equipe quer compreender o que acontece quando essa leitura entra em uma operação.
+#### Desafio
 
-**Comportamento e restrições:** compare usar o texto em uma operação e usar sua conversão explícita para número. Escolha a operação e os dados; investigue também uma conversão que não produza número válido.
+Um arquivo de telemetria da Frota Aurora traz uma quantidade numérica como
+texto. Compare usar o texto em uma operação e usar sua conversão explícita para
+número. Escolha a operação e os dados; investigue também uma conversão que não
+produza número válido.
 
-**Entrega:** experiência autoral, previsão anterior e saída real. **Explique:** compare os tipos e a diferença observada, se houver, sem esconder resultados inesperados.
+#### Hipótese ou previsão inicial
 
-**Variação posterior:** escolha outra entrada textual e justifique o que espera observar antes de executar.
+Antes de executar, registre os tipos e resultados que espera observar nos três
+casos: texto na operação, texto convertido explicitamente e conversão inválida.
+
+#### Nível de IA permitido
+
+Antes da tentativa, a IA pode explicar tipos e conversão com outro contexto,
+fazer perguntas orientadoras e oferecer uma pista por vez. Ela não pode gerar o
+código da missão, escolher os dados ou fornecer a resposta prevista. A revisão
+completa é permitida somente depois da tentativa registrada.
+
+#### Entregável
+
+Experiência autoral em `.mjs`, previsão anterior, comando exato, saída real e
+explicação que compare os tipos e as diferenças observadas sem esconder
+resultados inesperados.
+
+#### Critérios objetivos de conclusão
+
+- [ ] Registrei a previsão antes da primeira execução.
+- [ ] Fiz e executei uma tentativa própria antes de receber código específico.
+- [ ] Comparei texto, conversão numérica e conversão inválida.
+- [ ] Expliquei os tipos e relacionei a operação à saída observada.
+- [ ] Fiz uma modificação escolhida por mim e previ seu efeito.
+- [ ] Consigo reconstruir ou explicar a solução sem ler o arquivo.
+
+#### Testes ou evidências
+
+Registre em [execuções](../evidencias/execucoes.md) o arquivo, a previsão, o
+comando executado, a saída real e a comparação. Inclua erros e resultados
+inesperados; não antecipe evidências.
+
+#### Reflexão posterior
+
+Depois da execução, explique com suas palavras por que texto e número podem
+produzir comportamentos diferentes e qual hipótese precisou ser corrigida.
+
+#### Contribuições da IA
+
+Registre somente conceitos, perguntas, pistas ou revisão realmente utilizados.
+Separe-os da tentativa e das decisões próprias.
+
+#### Sugestões da IA aceitas ou rejeitadas
+
+Liste cada sugestão relevante, se foi aceita ou rejeitada e por quê. Não preencha
+este campo se não houve sugestão.
+
+#### Variação ou desafio seguinte
+
+Escolha outra entrada textual, justifique o que espera observar antes de
+executar e compare a nova previsão com o resultado real.
 
 ## Condições e repetições
 

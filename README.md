@@ -1,6 +1,9 @@
-# Backend e Integrações — Laboratório de Estudo
+# Backend e Integrações — Laboratório de Estudo AI-native
 
-Laboratório público de aprendizagem de software, começando por backend e integrações, com prática autoral e evidências de compreensão.
+Laboratório público para aprender fundamentos reais de Ciência da Computação e
+construir software profissional com agentes de IA, começando por backend e
+integrações. O percurso combina prática manual, aprendizagem assistida e projetos
+AI-native com evidências de compreensão e funcionamento.
 
 Este repositório contém anotações, exercícios e provas de conceito. Projetos finalizados de portfólio são promovidos para repositórios próprios.
 
@@ -15,6 +18,22 @@ Repositório em evolução: materiais futuros podem estar incompletos e serão r
 Minha especialidade em construção é software. No longo prazo, quero conectar programação, IA, eletrônica e robótica para desenvolver projetos multidisciplinares. Este repositório registra essa aprendizagem, começando pelos fundamentos de desenvolvimento backend.
 
 > Software é minha especialidade. Engenharia é meu playground. Construir coisas é o objetivo.
+
+## Modelo de aprendizagem
+
+> Código que o estudante não consegue explicar, modificar e depurar não conta como aprendizado, mesmo que funcione.
+
+| Modo | Quando usar | Papel da IA |
+|---|---|---|
+| `[MANUAL-CORE]` | Lógica, algoritmos, estruturas de dados, SQL, debugging, concorrência e fundamentos | Ensinar conceitos, fazer perguntas, dar pistas graduais e revisar depois da tentativa |
+| `[AI-ASSISTED]` | Bibliotecas, padrões, APIs e técnicas novas | Consultar documentação, criar testes, oferecer pistas e revisar código depois da abordagem inicial |
+| `[AI-NATIVE]` | Projetos reais, portfólio, integrações, automações e produtos | Implementar amplamente depois que problema, requisitos, arquitetura e validação forem definidos |
+
+AI-native não significa abandonar a escrita manual de código. O nível de IA
+muda conforme a competência avaliada: fundamentos continuam autorais; projetos
+de entrega usam agentes como multiplicadores de capacidade.
+
+Leia o [modelo completo e os critérios de escolha](./docs/LEARNING-MODEL.md).
 
 ## Painel de retomada
 
@@ -46,7 +65,14 @@ O caminho padrão é a [trajetória essencial até janeiro de 2027](./docs/traje
 
 ## Por onde começar
 
-Comece pelo [módulo 00 — Lógica e JavaScript](./00-logica-javascript/README.md), preparado para quem já teve contato com lógica e programas pequenos em Python, está retomando a prática e ainda não escreve JavaScript. Não é necessário dominar Python antes.
+1. Leia o [modelo de aprendizagem](./docs/LEARNING-MODEL.md).
+2. Abra a atividade atual indicada no [painel de retomada](#painel-de-retomada).
+3. Identifique o marcador e o nível de IA permitido.
+4. Registre a hipótese, previsão ou abordagem inicial antes de executar.
+5. Trabalhe, teste, explique, modifique, depure e guarde evidências reais.
+6. Preencha a retrospectiva e o registro de uso da IA somente depois do trabalho.
+
+O percurso começa pelo [módulo 00 — Lógica e JavaScript](./00-logica-javascript/README.md), preparado para quem já teve contato com lógica e programas pequenos em Python, está retomando a prática e ainda não escreve JavaScript. Não é necessário dominar Python antes.
 
 O módulo 00 constrói a base para programar; o 01 aplica essa base a HTTP. Node.js será inicialmente apenas o programa que executa seus arquivos JavaScript. TypeScript e ferramentas de API entram no módulo 03.
 
@@ -65,13 +91,24 @@ Assistir ou ler conteúdo não significa concluir um módulo.
 
 ## Uso de IA
 
-IA pode ser usada para setup, sintaxe, boilerplate revisável, explicação de ferramentas e formatação de texto autoral.
+Cada atividade declara `[MANUAL-CORE]`, `[AI-ASSISTED]` ou `[AI-NATIVE]`.
+O marcador determina se a IA atua como tutora socrática, assistente técnico ou
+agente de construção. Atividades ainda sem marcador usam `[MANUAL-CORE]` por
+segurança; restrições **sem IA** e **sem consulta** sempre prevalecem.
 
-IA não pode decidir arquitetura, modelagem, estratégia de testes, causa-raiz, tratamento de falhas, idempotência ou retry.
+Em todos os modos, o estudante continua responsável por compreender, validar e
+manter o resultado. O uso relevante da IA deve distinguir trabalho próprio,
+partes auxiliadas, sugestões aceitas ou rejeitadas e, em projetos AI-native,
+falhas da IA e correções humanas. Consulte [as regras detalhadas](./docs/regras-de-uso-de-ia.md).
 
-Se eu não consigo explicar uma sugestão da IA, ela não entra no repositório. Consulte [as regras detalhadas](./docs/regras-de-uso-de-ia.md).
+O Codex recebe as [instruções de tutoria do projeto](./AGENTS.md), que aplicam o
+comportamento adequado a cada marcador. O modelo padrão e as instruções de
+ativação estão em [configuração da IA](./docs/configuracao-da-ia.md).
 
-O Codex recebe as instruções de [tutoria do projeto](./AGENTS.md): uma pista por vez, perguntas orientadoras e revisão das minhas tentativas, sem gabarito. O modelo padrão e as instruções de ativação estão em [configuração da IA](./docs/configuracao-da-ia.md).
+Essa combinação conecta três objetivos: fundamentos manuais sustentam a formação
+em Ciência da Computação; prática assistida acelera o domínio da stack exigida
+no trabalho; projetos AI-native geram portfólio e experiência de construção de
+produtos próprios.
 
 ## Progresso
 

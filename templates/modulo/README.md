@@ -3,6 +3,7 @@
 **Alvo:** Backend Júnior, Analista de Sistemas/Integrações ou Ambos
 **Pré-requisito:** módulo anterior
 **Tempo estimado:** N semanas a 8h/semana
+**Modo predominante:** `[MANUAL-CORE]`, `[AI-ASSISTED]` ou `[AI-NATIVE]`
 
 ## Objetivo
 
@@ -28,8 +29,12 @@ Descreva os arquivos que serão produzidos.
 
 ## Uso de IA
 
-- Aceitável: fricção mecânica.
-- Não aceitável: arquitetura e debugging.
+Classifique cada exercício ou projeto com `[MANUAL-CORE]`, `[AI-ASSISTED]` ou
+`[AI-NATIVE]`. Declare permissões e limites específicos: o modo predominante do
+módulo não substitui a classificação de cada atividade.
+
+Consulte o [modelo de aprendizagem](../../docs/LEARNING-MODEL.md) e use o
+[template de atividade](../atividade.md).
 
 ## Projeto-portfólio
 
