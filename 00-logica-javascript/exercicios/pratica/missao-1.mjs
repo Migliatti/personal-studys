@@ -1,4 +1,4 @@
-const pessoa = "Gustavo"
+const pessoa = "Ana"
 const aprendizado = "Biologia"
 
 console.log("Acaba de chegar:", pessoa)
